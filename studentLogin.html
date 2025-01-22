@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ورود دانشجویان</title>
+</head>
+<body>
+    <div class="wrapper">
+      <header >ورود دانشجویان</header>
+      <form action="studentIndex.html">
+        <div class="field idNumber">
+          <div class="input-area">
+            <input type="text" maxlength="9" placeholder="شماره دانشجویی">
+            <i class="icon fas fa-envelope"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">شماره دانشجویی خود را وارد کنید</div>
+        </div>
+        <div class="field password">
+          <div class="input-area">
+            <input type="password" placeholder="رمز عبور">
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">رمز عبور خود را وارد کنید</div>
+        </div>
+        <div class="pass-txt justify-content-center"><a id="a-tag" href="#">رمز عبور خود را فراموش کردید؟</a></div>
+        <br>
+            <input type="submit" value="ورود" class="">
+        <a href="EmployeeLogin.html" data-mdb-ripple-init class="a-btn btn btn-outline-light px-5 btn-lg me-1" role="button" type="link">پنل کارمندان</a>
+      </form>
+    </div>
+  
+    <script src="script.js"></script>
+  
+    
+</body>
+</html>
